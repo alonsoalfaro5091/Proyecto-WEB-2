@@ -17,14 +17,6 @@ html {
   --clay:            #D4A373;
   --charcoal:        #264653;
   --paper:           #FEFAE0;
-  /** asignaciones */
-  --bg-primary:      var(--deep-forest);
-  --bg-secondary:    var(--forest);
-  --accent-primary:  var(--terracotta);
-  --accent-secondary: var(--sand);
-  --text-primary:    var(--paper);
-  --text-secondary:  var(--clay);
-  --card-bg:         var(--charcoal);
 }
 
 * {
@@ -602,3 +594,4 @@ footer {
   }
 
 }
+
