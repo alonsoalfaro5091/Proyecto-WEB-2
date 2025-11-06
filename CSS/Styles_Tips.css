@@ -53,6 +53,10 @@ main {
   top: 0;
   z-index: 1000;
   border-bottom: 0.6rem solid var(--deep-forest);
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #28a745 rgba(40, 167, 69, 0.1);
 }
 
 nav {
@@ -769,5 +773,6 @@ footer {
     min-height: 32rem;
   }
 }
+
 
 
