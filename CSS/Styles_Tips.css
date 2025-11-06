@@ -35,7 +35,7 @@ html {
 
 body {
   font-family: var(--body_font);
-  background-image: url(../img/Background_img.jpg);
+  background-image: url(../img/Background_gif.gif);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -777,3 +777,4 @@ footer {
     min-height: 32rem;
   }
 }
+
