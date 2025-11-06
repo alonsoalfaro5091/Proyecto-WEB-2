@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Alonso Alfaro">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	<link rel="stylesheet" href="CSS/Styles_index.css">
+<head>
+<body>
+	<main>
+		<nav id="navegation_bar">
+			<a href="index.html" class="icon-link active">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-backpack2" viewBox="0 0 16 16">
+						<path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14"></path>
+						<path fill-rule="evenodd" d="M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"></path>
+						<path d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v1.191l1.17.585a1.5 1.5 0 0 1 .83 1.342V13.5a1.5 1.5 0 0 1-1.5 1.5h-1c-.456.607-1.182 1-2 1h-7a2.5 2.5 0 0 1-2-1h-1A1.5 1.5 0 0 1 0 13.5v-2.382a1.5 1.5 0 0 1 .83-1.342L2 9.191V8a6 6 0 0 1 4-5.659M7 2v.083a6 6 0 0 1 2 0V2a1 1 0 0 0-2 0M3 13.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8A5 5 0 0 0 3 8zm-1-3.19-.724.362a.5.5 0 0 0-.276.447V13.5a.5.5 0 0 0 .5.5H2zm12 0V14h.5a.5.5 0 0 0 .5-.5v-2.382a.5.5 0 0 0-.276-.447L14 10.309Z"></path>
+					</svg>
+					<span class="buttons_desc">Equipamiento</span>
+			</a>
+			<a href="Campings.html" class="icon-link">
+					<span class="material-symbols-outlined icon-symbol">
+							camping
+					</span>
+					<span class="buttons_desc">Campings</span>
+			</a>
+			<a href="Tips.html" class="icon-link">
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check2-square" viewBox="0 0 16 16">
+					<path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5z"/>
+					<path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0"/>
+				</svg>
+				<span class="buttons_desc">Consejos</span>
+			</a>
+			
+			<div class="audio-controls">
+					<button id="playBtn" class="audio-btn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+									<path d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z"/>
+									<path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z"/>
+									<path d="M8.707 11.182A4.5 4.5 0 0 0 10.025 8a4.5 4.5 0 0 0-1.318-3.182L8 5.525A3.5 3.5 0 0 1 9.025 8 3.5 3.5 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06"/>
+							</svg>
+					</button>
+					
+					<button id="muteBtn" class="audio-btn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+									<path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06m7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0"/>
+							</svg>
+					</button>
+			</div>
+
+			<audio id="audioPlayer" class="hidden-audio"></audio>
+		</nav>
+		<div id="title_div">
+				<header><h1>Guia de Camping</h1></header>
+		</div>
+		<section id="Description_bar">
+			<div class="container_item">
+				<div class="card_item">
+					<img src="img/Items_Camping.jpg">
+					<span>Equipamiento</span>
+					<div class="items">
+						⦿ El equipo de campamento es vital porque garantiza que la experiencia en la naturaleza sea segura y cómoda.
+						Su principal función es brindarte protección inmediata contra el clima y cualquier imprevisto,
+						mientras que el resto de los artículos aseguran el descanso necesario y la capacidad de valerte por ti mismo
+						<br>
+						✮ Mira las Cartas para ver los objetos mas importantes del camping
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card">
+					<img src="img/ITEMS/Tent.jpg">
+					<span>Tienda de Acampar</span>
+					<div class="desc_item">
+						⦿ Es el refugio fundamental que te proporciona seguridad y privacidad. 
+						Su importancia es Máxima porque te protege directamente de todos los elementos climáticos adversos (lluvia, viento, nieve) e insectos. 
+						Debe ser elegida según el clima y el número de ocupantes.
+						<br>
+						<br>
+						✮ Una recomendacion son las Tiendas de marcas de trekking (Marmot, MSR, etc..) con mejor impermeabilidad.
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/mochila.jpg">
+					<span>Mochila</span>
+					<div class="desc_item">
+						⦿ Es tu sistema de transporte para todo tu equipo.
+						Su diseño ergonómico y ajuste son vitales para distribuir el peso correctamente en la cadera, 
+						no en los hombros. Una mochila incómoda o mal ajustada puede arruinar una caminata.
+						Su importancia es Máxima para la movilidad y comodidad.
+						<br>
+						<br>
+						✮ Modelos con estructura interna y ajustes personalizables que transfieren parte del peso a las caderas, 
+						haciendo la caminata más cómoda (Osprey o Deuter de gama media).
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/Saco_de_dormir.jpg">
+					<span>Saco de Dormir</span>
+					<div class="desc_item">
+						⦿ Su función es mantener el calor corporal que generas. La clave es el índice de temperatura el cual
+						debe ser adecuado para la temperatura mínima que esperas.
+						Su importancia es Alta para garantizar un descanso profundo y prevenir la hipotermia.
+						<br>
+						<br>
+						✮ Mi Recomendacion son Sacos con aislamiento sintético de marca(Marmot, MSR, etc..) que se comprimen mejor
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/Ropa.jpg">
+					<span>Ropa</span>
+					<div class="desc_item">
+						⦿ Cuando vas a acampar NO se trata solo de vestirse, sino de usar un sistema de capas (layering): una capa base que maneja la humedad,
+						una capa media que aísla y una capa externa que protege del viento y la lluvia. 
+						Esta capacidad de adaptación es de Máxima Importancia para regular tu temperatura corporal.
+						<br>
+						<br>
+						✮ Un Kit de Capas 3-en-1 con capa base sintética, forro polar y chaqueta impermeable/transpirable de marca (DryVent o Omni-Tech), 
+						ofrece una protección sólida, versátil y transpirable contra el clima.
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card">
+					<img src="img/ITEMS/lanter.jpg">
+					<span>Linterna</span>
+					<div class="desc_item">
+						⦿	Es la fuente de luz esencial una vez cae la noche. La frontal es superior porque permite tener ambas manos libres para cocinar, 
+						armar la tienda o leer un mapa. Su importancia es Alta para la seguridad y la navegación nocturna.
+						<br>
+						<br>
+						✮ Una Linterna Frontal de 300-450 Lúmenes (Petzl TIKKA) con batería regulada y luz roja. 
+						Esto garantiza un brillo constante y potencia suficiente para navegar de noche, optimizando la duración de la batería.
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/alimentos-kit-supervivencia-no-perecederos.jpg">
+					<span>Alimento</span>
+					<div class="desc_item">
+						⦿ Es tu suministro de energía y nutrientes para las actividades. Se recomienda comida no perecedera,
+						ligera y con alta densidad calórica (liofilizada, barras, frutos secos).
+						Su importancia es Máxima para la supervivencia y el rendimiento físico
+						<br>
+						<br>
+						✮ Comida Liofilizada de Marca combinada con Barras Energéticas. 
+						Esta opción asegura una alta densidad calórica y bajo peso, 
+						esencial para caminatas sin cargar comida pesada o perecedera.
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/articulos_higiene.jpg">
+					<span>Articulos personales</span>
+					<div class="desc_item">
+						⦿ Incluye la higiene básica, medicamentos personales y, crucialmente, el Aislante o Colchoneta. 
+						Este último es lo más importante para el frío, ya que bloquea la pérdida de calor por contacto con el suelo.
+						Su importancia es Alta por higiene, salud y termorregulación.
+						<br>
+						<br>
+						✮Kit de viaje ultraligero que incluye jabón biodegradable multiusos, cepillo de dientes plegable, 
+						pasta de dientes sólida o en tabletas y una Toalla de Microfibra de secado rápido. 
+						Su valor es que mantiene la higiene con el mínimo impacto ambiental y el menor peso posible.
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/encendedor.jpg">
+					<span>Encendedor</span>
+					<div class="desc_item">
+						⦿	Te proporciona una fuente de calor controlada para encender la estufa o iniciar una fogata (si está permitido). 
+						Se deben llevar múltiples métodos (fósforos impermeables, encendedor, ferrocerio).
+						Su importancia es Alta para cocinar y, potencialmente, para una emergencia.
+						<br>
+						<br>
+						✮ Un Dúo de Encendedor de Butano y Barra de Ferrocerio. 
+						Esta combinación garantiza una fuente de fuego doble y confiable, 
+						ya que el ferrocerio funciona incluso mojado.
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card">
+					<img src="img/ITEMS/navaja_multiusos.jpg">
+					<span>Herramienta Multiusos</span>
+					<div class="desc_item">
+						⦿	Combina las funciones de cuchillo, alicate, sierra, abridor, etc. Es fundamental para reparaciones rápidas del equipo,
+						preparar alimentos o cortar leña pequeña. Su importancia es Media/Alta por su versatilidad en el campo.
+						<br>
+						<br>
+						✮ Una Multiherramienta de Marca con Bloqueo (Leatherman Sidekick) fabricada con buen acero inoxidable.
+						Proporciona durabilidad, fiabilidad y seguridad gracias a su bloqueo de hoja.
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/botiquin.jpg">
+					<span>Botiquin</span>
+					<div class="desc_item">
+						⦿	Kit con lo necesario para tratar lesiones menores (cortes, ampollas), picaduras y dolores. 
+						Debe incluir conocimientos básicos de primeros auxilios.
+						Su importancia es Máxima y es vital para manejar situaciones de emergencia lejos de la civilizació.
+						<br>
+						<br>
+						✮ Un Kit de Primeros Auxilios de Montaña Pre-ensamblado de marca (Adventure Medical Kits). 
+						El kit está optimizado y contiene artículos de calidad para tratar eficazmente las lesiones comunes al aire libre.
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ITEMS/utensilios_de_comida.jpg">
+					<span>Utensilios de cocina</span>
+					<div class="desc_item">
+						⦿Lleva un kit que incluya la estufa, el combustible, ollas y recipientes. 
+						Es esencial para preparar alimentos calientes y hervir agua para hacerla potable. 
+						Su importancia es Media/Alta, ya que una comida caliente puede elevar la moral y reponer energías.
+						<br>
+						<br>
+						✮ Un Sistema de Cocción Integrado (Jetboil o MSR PocketRocket) que combina el quemador y la olla. 
+						Su gran valor es la alta eficiencia en el consumo de combustible para hervir agua rápidamente y ahorrar espacio
+					</div>
+				</div>
+			</div>
+    <footer>
+        <p>&copy; 2025  Proyecto Web 2 Alonso Alfaro. Todos los derechos reservados.</p>
+    </footer>
+	</main>
+	<script src="js/music.js"></script>
+</body>
+</html>
