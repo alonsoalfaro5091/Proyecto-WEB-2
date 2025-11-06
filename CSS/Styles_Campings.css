@@ -170,6 +170,44 @@ a:focus, button:focus {
 }
 /*? BUTTONS */
 
+/*? MUSIC */
+.audio-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.audio-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.2rem solid var(--sage);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.audio-btn:hover {
+    background: var(--sage);
+    transform: scale(1.1);
+    color: var(--deep-forest);
+}
+
+.audio-btn svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.hidden-audio {
+    display: none;
+}
+/*? MUSIC */
+
 /** TITLE */
 #title_div {
   background: rgba(0, 0, 0, 0.5);
