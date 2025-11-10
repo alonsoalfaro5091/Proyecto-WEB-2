@@ -470,7 +470,7 @@ a:focus, button:focus {
 .flip-card-back h2 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
-  color: var(--charcoal);
+  color: var(--terracotta);
 }
 
 .flip-card-back p {
@@ -773,3 +773,4 @@ footer {
     min-height: 32rem;
   }
 }
+
