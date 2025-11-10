@@ -17,6 +17,14 @@ html {
   --clay:            #D4A373;
   --charcoal:        #264653;
   --paper:           #FEFAE0;
+  /** asignaciones */
+  --bg-primary:      var(--deep-forest);
+  --bg-secondary:    var(--forest);
+  --accent-primary:  var(--terracotta);
+  --accent-secondary: var(--sand);
+  --text-primary:    var(--paper);
+  --text-secondary:  var(--clay);
+  --card-bg:         var(--charcoal);
 }
 
 * {
@@ -27,7 +35,7 @@ html {
 
 body {
   font-family: var(--body_font);
-  background-image: url(../img/Background_gif.gif);
+  background-image: url(../img/Background_img.jpg);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -53,10 +61,6 @@ main {
   top: 0;
   z-index: 1000;
   border-bottom: 0.6rem solid var(--deep-forest);
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: #28a745 rgba(40, 167, 69, 0.1);
 }
 
 nav {
@@ -773,6 +777,3 @@ footer {
     min-height: 32rem;
   }
 }
-
-
-
