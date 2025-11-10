@@ -17,14 +17,6 @@ html {
   --clay:            #D4A373;
   --charcoal:        #264653;
   --paper:           #FEFAE0;
-  /** asignaciones */
-  --bg-primary:      var(--deep-forest);
-  --bg-secondary:    var(--forest);
-  --accent-primary:  var(--terracotta);
-  --accent-secondary: var(--sand);
-  --text-primary:    var(--paper);
-  --text-secondary:  var(--clay);
-  --card-bg:         var(--charcoal);
 }
 
 * {
@@ -35,7 +27,7 @@ html {
 
 body {
   font-family: var(--body_font);
-  background-image: url(../img/Background_img.jpg);
+  background-image: url(../img/Background_gif.gif);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -50,6 +42,16 @@ main {
   flex: 1;
 }
 
+.container_video{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
 /** NAV */
 #navegation_bar {
   background: linear-gradient(45deg, var(--deep-forest), var(--forest));
@@ -61,7 +63,13 @@ main {
   top: 0;
   z-index: 1000;
   border-bottom: 0.6rem solid var(--deep-forest);
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #28a745 rgba(40, 167, 69, 0.1);
 }
+
+
 
 nav {
   display: flex;
@@ -212,8 +220,8 @@ a:focus, button:focus {
 
 /** TITLE */
 #title_div {
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(1rem);
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(0.5rem);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -240,7 +248,7 @@ a:focus, button:focus {
   flex-direction: column;
 }
 
-/** Explicacion del Equipamiento */
+/** desc_equipo*/
 .container_item {
   width: 98%;
   min-height: 8rem;
