@@ -27,7 +27,7 @@ html {
 
 body {
   font-family: var(--body_font);
-  background-image: url(../img/Background_gif.gif); 
+  background-image: url(../img/BACKGORUND_GIF/BACKGROUND_3.gif); 
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -169,24 +169,24 @@ a:focus, button:focus {
 
 /*? MUSIC */
 .audio-controls {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-left: 2rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 2rem;
 }
 
 .audio-btn {
-    background: rgba(255, 255, 255, 0.1);
-    border: 0.2rem solid var(--sage);
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.2rem solid var(--sage);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
 }
 
 .audio-btn:hover {
@@ -230,7 +230,7 @@ a:focus, button:focus {
   text-shadow: 0 2rem 4rem #66b266;
 }
 
-/** TIPS CARD*/
+/** DESCRIPTIONS_BAR*/
 #Description_bar {
   display: flex;
   flex-direction: column;
@@ -259,6 +259,7 @@ a:focus, button:focus {
   position: relative;
   transition: all 0.5s ease;
   margin: 0 auto;
+  box-shadow: 0 1rem 4rem var(--light-sage);
 }
 
 .card_item:hover {
@@ -301,7 +302,7 @@ a:focus, button:focus {
   min-height: fit-content;
   height: 1rem;
   padding: 3rem 2rem;
-}
+}lk
 
 .items {
   position: absolute;
@@ -496,7 +497,7 @@ a:focus, button:focus {
   color: var(--paper);
 }
 
-/** Footer*/
+/** FOOTER*/
 footer {
   font-size: 1.5rem;
   text-align: center;
@@ -506,8 +507,9 @@ footer {
   margin-top: auto;
 }
 
-/*! SMALL Screen - Mobile */
+/*! SMALL SCREEN */
 @media screen and (max-width: 768px) {
+  /** TITLE */
   #title_div {
     margin-top: 6rem;
     height: 20vh;
@@ -519,6 +521,7 @@ footer {
     padding: 0.5rem;
   }
   
+  /** NAV */
   nav {
     gap: 0.8rem;
     padding: 0.8rem 0.5rem;
@@ -538,6 +541,7 @@ footer {
     height: 2rem;
   }
   
+  /** CARDS */
   .container {
     margin-inline: 0.5rem;
     padding-block: 1rem;
@@ -592,6 +596,7 @@ footer {
     max-height: 12rem;
   }
 
+  /** DESC BAR */
   .card_item {
     height: 6rem;
   }
@@ -623,13 +628,15 @@ footer {
   }
 }
 
-/*! MEDIUM Screen - Tablet */
+/*! MEDIUM SCREEN */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  /** TITLE */
   #title_div header h1 {
     font-size: 5rem;
     padding: 1rem;
   }
   
+  /** NAV */
   nav {
     gap: 2rem;
   }
@@ -638,6 +645,7 @@ footer {
     font-size: 2rem;
   }
   
+  /** CARDS */
   .flip-card {
     gap: 2rem;
   }
@@ -667,6 +675,7 @@ footer {
     font-size: 1.7rem;
   }
 
+  /** DESC BAR */
   .card_item {
     height: 7rem;
   }
@@ -698,21 +707,25 @@ footer {
   }
 }
 
-/*! BIG Screen - Desktop */
+/*! BIG SCREEN */
 @media screen and (min-width: 1025px) {
+  /** TITLE */
   #title_div header h1 {
     font-size: 8rem;
     padding: 1.5rem;
   }
   
-  .container {
-    max-width: 120rem;
-  }
   
+  /** NAV */
   nav {
     gap: 3rem;
   }
   
+  /** CARDS */
+  .container {
+    max-width: 120rem;
+  }
+
   .icon-link span {
     font-size: 2.5rem;
   }
@@ -742,6 +755,7 @@ footer {
     font-size: 1.9rem;
   }
 
+  /**  DESC BAR  */
   .card_item {
     height: 8rem;
   }

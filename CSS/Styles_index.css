@@ -27,7 +27,7 @@ html {
 
 body {
   font-family: var(--body_font);
-  background-image: url(../img/Background_gif.gif);
+  background-image: url(../img/BACKGORUND_GIF/BACKGROUND_4.gif);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -41,15 +41,6 @@ main {
   flex-direction: column;
   flex: 1;
 }
-
-.container_video{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100vh;
-}
-
 
 
 /** NAV */
@@ -243,12 +234,11 @@ a:focus, button:focus {
   text-shadow: 0 2rem 4rem #66b266;
 }
 
+/** DESCRIPTION BAR */
 #Description_bar {
   display: flex;
   flex-direction: column;
 }
-
-/** desc_equipo*/
 .container_item {
   width: 98%;
   min-height: 8rem;
@@ -381,7 +371,7 @@ a:focus, button:focus {
   padding: 3rem 2rem;
 }
 
-/*? Descripciones objetos */
+/*? DESC OBJ */
 .desc_item {
   position: absolute;
   top: 13rem;
@@ -417,9 +407,9 @@ a:focus, button:focus {
 .card_item:hover .items {
   transform: translateY(0);
 }
-/*? Descripciones objetos */
+/*? DESC OBJ */
 
-/** Footer*/
+/** FOOTER*/
 footer {
   font-size: 1.5rem;
   text-align: center;
@@ -429,8 +419,9 @@ footer {
   margin-top: auto;
 }
 
-/*! SMALL Screen - Mobile */
+/*! SMALL SCREEN */
 @media screen and (max-width: 768px) {
+  /** TITLE */
   #title_div {
     margin-top: 6rem;
     height: 20vh;
@@ -442,6 +433,7 @@ footer {
     padding: 0.5rem;
   }
 
+  /** NAV */
   nav {
     gap: 0.8rem;
     padding: 0.8rem 0.5rem;
@@ -461,6 +453,7 @@ footer {
     height: 2rem;
   }
   
+  /** CARDS */
   .container {
     flex-direction: column;
     padding: 1rem;
@@ -496,6 +489,7 @@ footer {
     overflow-y: auto;
   }
   
+  /** DESC BAR */
   .card_item {
     height: 6rem;
   }
@@ -523,13 +517,15 @@ footer {
   }
 }
 
-/*! MEDIUM Screen - Tablet */
+/*! MEDIUM SCREEN */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  /** TITLE */
   #title_div header h1 {
     font-size: 5rem;
     padding: 1rem;
   }
   
+  /** CARDS */
   .card span {
     font-size: 3.2rem;
   }
@@ -542,6 +538,7 @@ footer {
     font-size: 2.1rem;
   }
   
+  /** DESC BAR */
   .card_item span {
     font-size: 3rem;
   }
@@ -554,6 +551,7 @@ footer {
     font-size: 2.3rem;
   }
   
+  /** NAV */
   nav {
     gap: 2rem;
   }
@@ -563,13 +561,15 @@ footer {
   }
 }
 
-/*! BIG Screen - Desktop */
+/*! BIG SCREEN*/
 @media screen and (min-width: 1025px) {
+  /** TITLE */
   #title_div header h1 {
     font-size: 8rem;
     padding: 1.5rem;
   }
   
+  /** CARDS */
   .card span {
     font-size: 3.5rem;
   }
@@ -582,6 +582,7 @@ footer {
     font-size: 2.5rem;
   }
   
+  /**DESC BAR */
   .card_item span {
     font-size: 3.2rem;
   }
@@ -594,6 +595,7 @@ footer {
     font-size: 2.8rem;
   }
   
+  /** NAV */
   nav {
     gap: 3rem;
   }
